@@ -5,6 +5,6 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class PaymentLinkDTO {
-    private String paymentLink;
+public class PaymentExceptionDto {
+    String errorMessage;
 }
